@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;  
-    background-color: dimgray;
     color:white;
 }
 main{
@@ -22,6 +21,14 @@ p{
     font-size: 24px;
     margin-right: 3em;
 }
+
+h1{
+    font-size: 4em;
+    position:static;
+    font-family: 'Bangers', cursive;
+    color: #3f4b3a;  
+
+}
 .titulo{
     background-color: whitesmoke;
 
@@ -31,16 +38,8 @@ p{
     text-align: center;       
     
 }
-h1{
-    font-size: 4em;
-    position:static;
-    font-family: 'Bangers', cursive;
-    color: #3f4b3a;  
 
-}
-
-.imagens{
-    
+.imagens{    
     background-image: linear-gradient(to right, pink,violet, blue);
         
     display: flex;
